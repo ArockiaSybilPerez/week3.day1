@@ -20,9 +20,7 @@ public class Desktop extends Computer {
 		
 		Desktop obj1 = new Desktop();
 		obj1.DesktopSize();
-		
-		Desktop obj = new Desktop();
-		obj.computerModel();
+		obj1.computerModel();
 		
 	}
 }
