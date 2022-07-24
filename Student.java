@@ -25,24 +25,12 @@ public class Student extends Department{
 	public static void main(String[] args) {
 		Student obj = new Student();
 		obj.studentName();
-		
-		Student obj1 = new Student();
-		obj1.studentDept();
-		
-		Student obj2 = new Student();
-		obj2.studentId();
-		
-		Student obj4 = new Student();
-		obj4.deptName();
-		
-		Student obj5 = new Student();
-		obj5.collegeName();
-		
-		Student obj6 = new Student();
-		obj5.collegeCode();
-		
-		Student obj7 = new Student();
-		obj7.collegeRank();
+		obj.studentDept();
+        obj.studentId();
+        obj.deptName();
+        obj.collegeName();
+        obj.collegeCode();
+        obj.collegeRank();
 				
 }
 }
