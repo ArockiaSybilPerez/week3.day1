@@ -16,19 +16,19 @@ public class AxisBank extends BankInfo {
 	  
 	  public static void main(String[] args) {
 		  
-		  AxisBank obj = new AxisBank();
-		  obj.saving();
+		  //BankInfo obj = new AxisBank();
+		  //obj.saving();
 		  
-		  AxisBank obj1 = new AxisBank();
-		  obj.fixed();
+		  //BankInfo obj1 = new AxisBank();
+		  //obj.fixed();
 		  
-		  AxisBank obj2 = new AxisBank();
+		   // override
+		  // parent class obj = new child class
+		  
+		  BankInfo obj2 = new AxisBank();
 		  obj2.deposit();
 		  
-    // override
-		  
-		  AxisBank obj3 = new AxisBank();
-		  obj3.deposit();
-		  
+
 	  }
 }
+
